@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sm-efs-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-xf5xznuweo9q"
+s3_prefix = "sm-efs-app"
+region = "us-east-1"
+profile = "aakashbanerjee"
+capabilities = "CAPABILITY_IAM"
